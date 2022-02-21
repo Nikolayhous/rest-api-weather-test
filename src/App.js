@@ -1,7 +1,13 @@
-import './App.css';
+import Container from './Components/Cotainer';
+import MainPage from './_pages';
 
 function App() {
-    return <div className="App"></div>;
+    return (
+        <Container>
+            <h1>Hello react</h1>
+            <MainPage />
+        </Container>
+    );
 }
 
 export default App;
