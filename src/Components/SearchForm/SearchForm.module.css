@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.form {
+    border-color: transparent;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.input {
+    background-color: var(--main-bg);
+    margin-right: 25px;
+    padding: 22px 60px;
+    border: none;
+    border-radius: 30px;
+    filter: drop-shadow(1px 3px 5px rgba(82, 85, 95, 0.15));
+}
+
+.input::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.438);
+}

@@ -1,0 +1,13 @@
+.text {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.image {
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 380px;
+}

@@ -4,7 +4,6 @@ import MainPage from './_pages';
 function App() {
     return (
         <Container>
-            <h1>Hello react</h1>
             <MainPage />
         </Container>
     );
